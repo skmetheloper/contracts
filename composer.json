@@ -1,0 +1,33 @@
+{
+  "name": "etherio/contracts",
+  "description": "",
+  "authors": [
+    {
+      "name": "Shin Maung Maung",
+      "email": "shinmaungmaung@gmail.com"
+    }
+  ],
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/etherio",
+  "autoload": {
+    "psr-4": {
+      "Ethereal\\Contracts\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    },
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "require": {
+    "php": "^7.2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
