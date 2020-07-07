@@ -12,5 +12,5 @@ The contracts of an application instances
 Run `composer` command:
 
 ```sh
-composer require etherio/contracts
+$ composer require etherio/contracts
 ```
